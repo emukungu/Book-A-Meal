@@ -1,0 +1,39 @@
+#sign {
+  padding: 20px;
+  
+}
+#table2{
+    margin: auto;
+    width: 70%;
+    
+}
+#td1{
+    padding-top: 20px;
+}
+.first{
+    background-color: midnightblue;
+    padding-left: 15%;
+}
+.second{
+    background-color: mediumslateblue;
+}
+#foot{
+    background-color: midnightblue;
+}
+#account{
+    padding-left: 490px;
+}
+#h3{
+    margin-left: 25px;
+}
+#amount{
+    padding-left: 10px;
+}
+#td3{
+    height:50px;
+}
+#add{
+    margin-left: 300px;
+    width: 50px; 
+    height: 30px;
+}
