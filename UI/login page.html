@@ -6,7 +6,7 @@
     <title>Book-A-Meal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="Book-A-Meal.css"/>
-    <script src="main.js"></script>
+    <script src="Book-A-Meal.js"></script>
 </head>
 <body class="body">
     <div class="first">
@@ -14,7 +14,7 @@
             <tr>
                 <td><h2>BOOK-A-MEAL</h2></td>
                 <td id="account">
-                    <form id="sign" action="/git/Book-A-Meal/UI/see_menu.html" method="post" target="_self">
+                    <form id="sign" action="/git/Book-A-Meal/UI/view_menu.html" method="post" target="_self">
                         <table>
                             <tr><td>Username</td><td>Password</td></tr>            
                             <tr><td> <input type="text" name="username"></td>
@@ -47,13 +47,15 @@
                     <p>You are welcome</p>
                     <form>
                         <table>
-                            <tr><td style="height:50px;">First name</td><td style="height:50px;"><input type="text" name="firstname"/></td></tr>
-                            <tr><td style="height:50px;">Last name</td><td style="height:50px;"><input type="text" name="lastname"/></td></tr>
-                            <tr><td style="height:50px;">Email</td><td style="height:50px;"><input type="email" name="user_email"/></td></tr>
-                            <tr><td style="height:50px;">Password</td><td style="height:50px;"><input type="password" name="sign_up_pass"/></td></tr>
+                            <tr><td id="td3">First name</td><td id="td3"><input type="text" name="firstname"/></td></tr>
+                            <tr><td id="td3">Last name</td><td id="td3"><input type="text" name="lastname"/></td></tr>
+                            <tr><td id="td3">Email</td><td id="td3"><input type="email" name="user_email"/></td></tr>
+                            <tr><td id="td3">Password</td><td id="td3"><input type="password" name="sign_up_pass"/></td></tr>
                         </table>
                     </form>
-                    <button type="button" name="sign_up" style="width:250px; height:40px;">Sign up</button>
+                    <button type="button" name="sign_up" style="width:250px; height:40px;">Sign up</button><br>
+                    <label>Sign up As</label>
+                    <a href="/git/Book-A-Meal/UI/login%20page.html">Caterer</a> OR <a href="/git/Book-A-Meal/UI/login%20page.html">Customer</a>
                 </td>
             </tr>
         </table>
