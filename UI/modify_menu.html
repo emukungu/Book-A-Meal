@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Modify Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Book-A-Meal.css" />
+    <script src="Book-A-Meal.js"></script>
+</head>
+<body>
+    <div class="first">
+        <table>
+            <tr>
+                <td><h2>BOOK-A-MEAL</h2></td>
+                <td id="account">Welcome Esther </td>
+            </tr>
+            <tr>
+                <td class="dropdown">
+                    <button class="dropbtn">HOME</button>
+                </td>
+                <td class="dropdown">
+                    <button class="dropbtn">ORDERS</button>
+                    <div class="dropdown-content">
+                        <a href="./offers_summary.html">Summary of Daily orders</a>
+                        <a href="./offers_details.html">Details of Daily orders</a>
+                    </div>
+                </td>
+                <td class="dropdown">
+                    <a href="./admin_history.html">
+                        <button class="dropbtn">HISTORY</button>
+                    </a>                    
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="second">
+        <table class="table2">
+            <tr>
+                <td>
+                    <h3 id="h3">MENU OPTIONS</h3>
+                    
+                </td>
+                <td><h3>AMOUNT</h3></td>
+                                
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="check1">
+                    <img src="C:\Users\ESTHER\Downloads\option1.jpg" alt="" height="25%" width= "25%">
+                    <label id="amount">Oysters and Chicken</label>
+                </td>
+                <td id="amount">
+                    shs 10,000
+                </td>
+            </tr>
+            <tr>
+                <td id="td1"><input type="checkbox" name="check2">
+                    <img src="C:\Users\ESTHER\Downloads\roasted beef.jpg" alt="" height="25%" width= "25%">
+                    <label id="amount">Roasted beef</label>
+
+                </td>
+                <td id="amount">shs 20,000</td>
+            </tr>
+            <tr>
+                <td id="td1"><input type="checkbox" name="check3">
+                    <img src="C:\Users\ESTHER\Downloads\option1.jpg" alt="" height="25%" width= "25%">
+                    <label id="amount">Pilau and Chicken stew</label>
+
+                </td><td id="amount">shs 5000</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./add_meal.html">
+                        <button class="add">Add Meal</button>
+                    </a>
+                    <a href="">
+                        <button class="add">Delete</button>
+                    </a>
+                    <a href="./add_meal.html">
+                        <button class="add">Edit</button>
+                    </a>
+                            <!-- <a href=""> <button type= "button" name="add"><Add New Meal</button></a> -->
+                </td>
+                
+            </tr>
+
+        </table>
+
+    </div>
+    <div id="foot"><footer style="padding-left: 40%;padding-top: 60px;">Copyright @Bootcamp</footer></div>
+    
+</body>
+</html>
