@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>See Menu</title>
+    <title>Modify Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="Book-A-Meal.css" />
     <script src="Book-A-Meal.js"></script>
@@ -15,10 +15,27 @@
                 <td><h2>BOOK-A-MEAL</h2></td>
                 <td id="account">Welcome Esther </td>
             </tr>
+            <tr>
+                <td class="dropdown">
+                    <button class="dropbtn">HOME</button>
+                </td>
+                <td class="dropdown">
+                    <button class="dropbtn">ORDERS</button>
+                    <div class="dropdown-content">
+                        <a href="./offers_summary.html">Summary of Daily orders</a>
+                        <a href="./offers_details.html">Details of Daily orders</a>
+                    </div>
+                </td>
+                <td class="dropdown">
+                    <a href="./admin_history.html">
+                        <button class="dropbtn">HISTORY</button>
+                    </a>                    
+                </td>
+            </tr>
         </table>
     </div>
     <div class="second">
-        <table id="table2">
+        <table class="table2">
             <tr>
                 <td>
                     <h3 id="h3">MENU OPTIONS</h3>
